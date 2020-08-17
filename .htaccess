@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.)?wylarel.com$ [NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [NE,L,R=301]
+
+
+Redirect 301 https://www.wylarel.com/girafeautonome https://girafeautonome.wylarel.com/
+Redirect 302 /cupcake/ https://www.wylarel.com/e/cupcake/
