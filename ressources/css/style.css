@@ -99,13 +99,9 @@ body
 }
 
 
-.mobile-title {
-  margin-top: 30px;
-  color: #FB0085;
-  text-transform: uppercase;
-  font-weight: 800;
-  text-align: center;
-  font-size: 300%;
+.mobile-header {
+  margin: 25px auto;
+  width: 70%;
 }
 
 .mobile-dl-button {
